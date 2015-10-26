@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     @IBAction func actionOnSlide(sender: AnyObject)
     {
         print("Value changed on slide");
+        print("Hello world !!!!")
     }
 
     @IBAction func actionOnButton(sender: AnyObject)

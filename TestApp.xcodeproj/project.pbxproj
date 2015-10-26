@@ -13,6 +13,7 @@
 		0AC030761B5D0B7A0026C973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC030751B5D0B7A0026C973 /* Images.xcassets */; };
 		0AC030791B5D0B7A0026C973 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AC030771B5D0B7A0026C973 /* LaunchScreen.xib */; };
 		0AC030851B5D0B7A0026C973 /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC030841B5D0B7A0026C973 /* TestAppTests.swift */; };
+		1BA4DF041BDE2DE5003396CC /* WelcomeViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA4DF031BDE2DE5003396CC /* WelcomeViewCtrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0AC0307E1B5D0B7A0026C973 /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC030831B5D0B7A0026C973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AC030841B5D0B7A0026C973 /* TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppTests.swift; sourceTree = "<group>"; };
+		1BA4DF031BDE2DE5003396CC /* WelcomeViewCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewCtrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				0AC030751B5D0B7A0026C973 /* Images.xcassets */,
 				0AC030771B5D0B7A0026C973 /* LaunchScreen.xib */,
 				0AC0306C1B5D0B7A0026C973 /* Supporting Files */,
+				1BA4DF031BDE2DE5003396CC /* WelcomeViewCtrl.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA4DF041BDE2DE5003396CC /* WelcomeViewCtrl.swift in Sources */,
 				0AC030711B5D0B7A0026C973 /* ViewController.swift in Sources */,
 				0AC0306F1B5D0B7A0026C973 /* AppDelegate.swift in Sources */,
 			);

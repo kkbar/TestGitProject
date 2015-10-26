@@ -17,12 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your employee id" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4r-ev-EKj">
-                                <rect key="frame" x="47" y="107" width="185" height="43"/>
-=======
+
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enter your employee id" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4r-ev-EKj">
                                 <rect key="frame" x="43" y="107" width="185" height="43"/>
->>>>>>> local
+
                                 <constraints>
                                     <constraint firstAttribute="width" constant="185" id="gHC-tN-akY"/>
                                     <constraint firstAttribute="height" constant="43" id="l44-8G-DJ4"/>
@@ -31,14 +29,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h36-mi-cF7">
-                                <rect key="frame" x="294" y="114" width="231" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a value" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Fq-5D-Ycq">
-                                <rect key="frame" x="47" y="183" width="185" height="43"/>
-=======
+
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h36-mi-cF7">
                                 <rect key="frame" x="290" y="114" width="239" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -46,7 +37,7 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Select a value" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Fq-5D-Ycq">
                                 <rect key="frame" x="43" y="183" width="185" height="43"/>
->>>>>>> local
+
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -63,12 +54,9 @@
                                     <segue destination="EEe-ya-6nf" kind="show" id="poW-w8-Q3B"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="K2O-Bf-Nvp">
-                                <rect key="frame" x="292" y="190" width="235" height="31"/>
-=======
+
                             <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="K2O-Bf-Nvp">
                                 <rect key="frame" x="288" y="190" width="243" height="31"/>
->>>>>>> local
                                 <connections>
                                     <action selector="actionOnSlide:" destination="vXZ-lx-hvc" eventType="valueChanged" id="CBM-BO-RFT"/>
                                 </connections>

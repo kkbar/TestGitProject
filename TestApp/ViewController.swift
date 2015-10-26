@@ -29,11 +29,14 @@ class ViewController: UIViewController {
         print("Value changed on slide");
         print("Hello world !!!!")
         print ("Check Git test !!!")
+        print("Config Git")
     }
 
     @IBAction func actionOnButton(sender: AnyObject)
     {
         print("Button pressed !!!!");
+        
+        print("Configuring Git")
     }
     
 }

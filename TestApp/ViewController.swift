@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     {
         print("Value changed on slide");
         print("Hello world !!!!")
-        print ("Hiiiii !!!")
+        print ("Check Git test !!!")
     }
 
     @IBAction func actionOnButton(sender: AnyObject)

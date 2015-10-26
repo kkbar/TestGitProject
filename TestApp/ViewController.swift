@@ -26,12 +26,12 @@ class ViewController: UIViewController {
 
     @IBAction func actionOnSlide(sender: AnyObject)
     {
-        println("Value changed on slide");
+        print("Value changed on slide");
     }
 
     @IBAction func actionOnButton(sender: AnyObject)
     {
-        println("Button pressed !!!!");
+        print("Button pressed !!!!");
     }
     
 }

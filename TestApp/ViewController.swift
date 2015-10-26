@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     {
         print("Value changed on slide");
         print("Hello world !!!!")
-        print ("Check Git test !!!")
+        print ("Hiiii")
         print("Config Git")
     }
 
